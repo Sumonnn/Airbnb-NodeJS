@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 const listing = require('../models/listing');
 
+
 /* GET home page. */
 router.get('/', function (req, res) {
   res.send("Hello, I'm Root");
